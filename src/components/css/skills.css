@@ -1,0 +1,42 @@
+#skills {
+    position: absolute;
+    margin-left: 17%;
+    margin-top: 12%;
+    background-color: rgba(53, 52, 52, 0.6);
+    border-style: solid;
+    width: 65%;
+  }
+
+.progress {
+    width: 90%;
+}
+.col-sm-2{
+  color: rgba(53, 52, 52, 0.6);
+}
+.text-center{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 22px;
+  color: beige;
+}
+
+@media only screen and (max-width: 550px){
+    #skills {
+        position: absolute;
+        margin-left: 8%;
+        margin-top: 33%;
+        background-color: rgba(53, 52, 52, 0.6);
+        border-style: solid;
+        width: 85%;
+      }
+}
+
+@media screen and (max-width: 1050px) and (min-width: 550px) {
+    #skills {
+        position: absolute;
+        margin-left: 8%;
+        margin-top: 16%;
+        background-color: rgba(53, 52, 52, 0.6);
+        border-style: solid;
+        width: 85%;
+      }
+  }

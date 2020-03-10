@@ -3,7 +3,6 @@ import './css/skills.css'
 
 export class skills extends Component {
     render() {
-        if(this.props.object.skills)
         return (
             <div id="skills">
             <div className="container p-4">
@@ -111,14 +110,7 @@ export class skills extends Component {
             </div>
             </div>
             </div>
-        );
-        else 
-        return(
-            <div>
-
-            </div>
         )
-    }
 }
-
-export default skills;
+}
+export default skills

@@ -4,12 +4,7 @@ import './css/home.css'
 
 export class home extends Component {
     render() {
-        if(!this.props.object.home) {
-            return(
-                <div></div>
-            );
-        }else
-         {
+         
             return (
                 <div id="home">
                     <div className="container">
@@ -27,7 +22,7 @@ export class home extends Component {
             );
         }
         
-    }
+    
 }
 
 export default home;

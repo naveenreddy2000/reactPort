@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {  Link } from "react-router-dom";
 
 export class navbar extends Component {
   cv = () =>{
@@ -15,16 +16,16 @@ export class navbar extends Component {
               <div className="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul className="navbar-nav ml-auto" >
                   <li className="nav-item">
-                  <button type="button" className="btn btn-dark" onClick={this.props.showHome}>Home</button>
+                  <Link className="btn btn-dark" to="/">Home</Link>
                   </li>
                   <li className="nav-item">
-                  <button type="button" className="btn btn-dark" onClick={this.props.showSkills}>Skills</button>
+                  <Link className="btn btn-dark" to="/skills">Skills</Link>
                   </li>
                   <li className="nav-item">
-                  <button type="button" className="btn btn-dark" onClick={this.showProjects}>Projects</button>
+                  <Link className="btn btn-dark" to="/projects">Projects</Link>
                   </li>
                   <li className="nav-item">
-                  <button type="button" className="btn btn-dark" onClick={this.props.showContact}>Contact</button>
+                  <Link className="btn btn-dark" to="/contact">Contact</Link>
                   </li>    
                 </ul>
               </div>

@@ -12,6 +12,7 @@ export class contact extends Component {
                     <img id="img" src={require('../img/naveen.png')} alt="Naveen Reddy"  />
                 </div>
                 <div className="col-sm-9">
+                <br/>
                 <h1 id = "name">Naveen Reddy</h1>
                 <p className="title">2nd year UG student</p>
                 <p id="nit">NIT Durgapur</p>
